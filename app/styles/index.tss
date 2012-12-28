@@ -10,4 +10,13 @@
 		fontFamily: 'Helvetica Neue'
 	},
 	textAlign: 'center'
+} ,
+"l1": {
+	top:10,
+	color: "#000",
+	font: {
+		fontSize: 10,
+		fontFamily: 'Helvetica Neue'
+	},
+	textAlign: 'center'
 } 

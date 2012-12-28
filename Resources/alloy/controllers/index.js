@@ -10,16 +10,29 @@ function Controller() {
         title: "Tab 1",
         id: "__alloyId2"
     }), "Window", null);
+    $.__views.l1 = A$(Ti.UI.createLabel({
+        width: Ti.UI.SIZE,
+        height: Ti.UI.SIZE,
+        color: "#000",
+        font: {
+            fontSize: 50,
+            fontFamily: "Helvetica Neue"
+        },
+        textAlign: "center",
+        text: "I am Window 1",
+        id: "l1"
+    }), "Label", $.__views.__alloyId2);
+    $.__views.__alloyId2.add($.__views.l1);
     $.__views.__alloyId3 = A$(Ti.UI.createLabel({
         width: Ti.UI.SIZE,
         height: Ti.UI.SIZE,
         color: "#000",
         font: {
-            fontSize: 30,
+            fontSize: 50,
             fontFamily: "Helvetica Neue"
         },
         textAlign: "center",
-        text: "I am Window 1",
+        text: "I am Window 2",
         id: "__alloyId3"
     }), "Label", $.__views.__alloyId2);
     $.__views.__alloyId2.add($.__views.__alloyId3);
@@ -40,7 +53,7 @@ function Controller() {
         height: Ti.UI.SIZE,
         color: "#000",
         font: {
-            fontSize: 30,
+            fontSize: 50,
             fontFamily: "Helvetica Neue"
         },
         textAlign: "center",
@@ -53,7 +66,7 @@ function Controller() {
         height: Ti.UI.SIZE,
         color: "#000",
         font: {
-            fontSize: 30,
+            fontSize: 50,
             fontFamily: "Helvetica Neue"
         },
         textAlign: "center",
@@ -66,7 +79,7 @@ function Controller() {
         height: Ti.UI.SIZE,
         color: "#000",
         font: {
-            fontSize: 30,
+            fontSize: 50,
             fontFamily: "Helvetica Neue"
         },
         textAlign: "center",
